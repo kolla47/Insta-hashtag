@@ -1,0 +1,62 @@
+/******************************
+Body
+******************************/
+body{
+	background:#333;
+}
+
+/******************************
+Wrapper
+******************************/
+#Wrapper{
+	margin:0 auto;
+	width:1000px;
+	margin-top:30px;
+}
+
+#Wrapper h1{
+	font-weight:300;
+	font-family:"Century Gothic";
+	text-align:left;
+	color:#FFF;
+	text-shadow:0px 2px #000;
+	margin-bottom:30px;
+}
+
+/******************************
+Image Gallery
+******************************/
+#Images ul li{
+	float:left;
+	width:150px;
+	height:125px;
+	background: #499bea; /* Old browsers */
+	background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #499bea 0%,#207ce5 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #499bea 0%,#207ce5 100%); /* W3C */
+	list-style:none;
+	margin:0px 0px 40px 40px;
+	opacity:0.6;
+	box-shadow:#000 0px 0px 5px 0px;
+	-webkit-animation: scale 3s ease-in-out infinite alternate;
+}
+
+#Images ul li:hover{
+	opacity:1.0;
+}
+
+/******************************
+Animations
+******************************/
+@-webkit-keyframes scale {
+  0% {
+
+  }
+
+  100% {
+ 	 -webkit-transform: scale(1.2);
+  }
+}
