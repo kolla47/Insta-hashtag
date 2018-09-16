@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('#submit-btn').click(function(){
+    $("ul").empty();
     var token = '5322494348.f5fe872.4fe04e2c71704e36b853e72ba4d34859';
     var $greeting = $('#greeting');
 
@@ -23,7 +24,6 @@ $(document).ready(function(){
         console.log(data);
       }
     });
-
     return false;
   })
 
