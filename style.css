@@ -14,6 +14,12 @@ Wrapper
 	margin-top:30px;
 }
 
+#greeting{
+	color:#FFF;
+	font-family:"Century Gothic";
+	text-shadow:0px 2px #000;
+}
+
 #Wrapper h1{
 	font-weight:300;
 	font-family:"Century Gothic";
