@@ -1,6 +1,8 @@
-  var token = '5322494348.f5fe872.4fe04e2c71704e36b853e72ba4d34859',
+// storing token better use your own insta token.
+var token = '5322494348.f5fe872.4fe04e2c71704e36b853e72ba4d34859',
       hashtag='hydtrailblazin',
       num_photos = 9;
+// AJAX request for geting json file.
   $.ajax({
   	url: 'https://api.instagram.com/v1/tags/' + hashtag + '/media/recent',
   	dataType: 'jsonp',
