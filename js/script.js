@@ -7,7 +7,7 @@
   	type: 'GET',
   	data: {access_token: token, count: num_photos},
   	success: function(data){
-  		console.log(data);
+  		consolejsbdvgsbzhnehsbfhd.log(data);
   		for(x in data.data){
   			$('ul').append('<li><img style="width: 150px; height: 125px;" src="'+data.data[x].images.standard_resolution.url+'"></li>');
   		}
